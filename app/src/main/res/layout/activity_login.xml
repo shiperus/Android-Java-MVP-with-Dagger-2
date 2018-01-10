@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:paddingLeft="20dp"
     android:paddingRight="20dp"
-    tools:context="com.example.android.androidmvp.Login.LoginView">
+    tools:context="com.example.android.androidmvp.login.LoginView">
 
     <TextView
         android:layout_width="match_parent"
@@ -39,10 +39,12 @@
             android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text" />
+            android:inputType="textPassword"
+            />
     </android.support.design.widget.TextInputLayout>
 
     <Button
+        android:id="@+id/loginButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login" />
